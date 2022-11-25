@@ -15,7 +15,7 @@ Add Book
     book_name=TaskName      isbn_value=SAITASK123   aisle_value=1234    author_name=Mary Jane
     book_name=${bookName}   isbn_value=SAIROB123    aisle_value=1234    author_name=John Doe
 
-    # To Do:    Check how to use optional arguments. For example, we only use 1-3 arguments above instead of all 4.
+    # TODO:    Check how to use optional arguments. For example, we only use 1-3 arguments above instead of all 4.
 
 Get Book
     ${get_response}=    GET     ${base_url}/Library/GetBook.php     params=ID=${book_id}        expected_status=200
