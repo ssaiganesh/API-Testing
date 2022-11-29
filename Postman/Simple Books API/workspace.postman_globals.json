@@ -1,0 +1,21 @@
+{
+	"id": "78bcd890-e91d-46aa-84f0-0dd900310b44",
+	"values": [
+		{
+			"key": "orderId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "bookId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-11-29T12:58:38.713Z",
+	"_postman_exported_using": "Postman/10.5.3"
+}
