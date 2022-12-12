@@ -8,6 +8,7 @@ ${base_url}     https://rahulshettyacademy.com
 ${book_id}
 ${bookName}     Robot Framework
 
+
 *** Keywords ***
 Add Book Template
     [Arguments]     ${book_name}    ${isbn_value}   ${aisle_value}  ${author_name}
@@ -24,3 +25,4 @@ Add Duplicate Book Template
     &{response}=    POST    ${base_url}/Library/Addbook.php     json=${req_body}    expected_status=200
     Dictionary Should Contain Key    ${response.json()}    ID
     Should Be Equal As Strings    The Book with the entered Isbn and Aisle already Exists!!    ${response.json()}[Msg]
+
